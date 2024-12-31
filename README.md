@@ -81,7 +81,7 @@ The Terraform configuration automates the setup process by:
 
 ## Manual Setup
 
-If you already have an Azure Storage account and container—or you just prefer not to use Terraform—simply:
+If you already have an Azure Storage account, container and service principal—or you just prefer not to use Terraform—simply:
 
 1. **Configure .env**
 
@@ -131,6 +131,7 @@ CLI-Uploadtool/
 │   ├── example.tfvars
 │   └── terraform.tfvars (optional - user-defined)
 ├── upload.sh
+├── example.env
 ├── .env (generated or manually created)
 └── README.md
 ```
