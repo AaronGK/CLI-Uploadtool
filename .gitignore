@@ -6,6 +6,6 @@ crash.log
 .terraformrc
 terraform.rc
 .terraform/
-*.tfvars
+terraform.tfvars
 .env
 *.log

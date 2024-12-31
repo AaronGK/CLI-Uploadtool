@@ -1,0 +1,5 @@
+resource_group_name  = "example_rg_name"
+location             = "example_location"
+storage_account_name = "example_sa_name"
+container_name       = "example_container_name"
+app_registration_name = "example_sp_name"
